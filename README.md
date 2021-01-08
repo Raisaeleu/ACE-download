@@ -3,6 +3,6 @@ Download data files from NOAA ACE repository and plot crucial solar wind data be
 
 [n, V, Bx, By, Bz, BVsquared, dates_mag, dates_swepam ] = ACE_dlf( t1, t2 )
 
-valid date format example: t1 = [2020,09,28];
+Valid date format example: t1 = [2020,09,28];
 
-data available from 29-Jul-2015 onwards
+Data available from 29-Jul-2015 onwards
