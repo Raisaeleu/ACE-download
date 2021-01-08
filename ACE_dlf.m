@@ -40,7 +40,10 @@ data_storage_swepam = swepam_dlf(tmins, tdays, ftpobj);
     BVsquared(BVsquared(:) == 0) = NaN;
     
 %cleanup:
-    clearvars -except n V Bx By Bz BVsquared dates_mag dates_swepam
+clearvars -except n V Bx By Bz BVsquared dates_mag dates_swepam
+    
+%plot data:
+ACE_plots
 
 end
 
