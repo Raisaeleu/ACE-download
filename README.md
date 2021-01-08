@@ -8,3 +8,5 @@ Call function:
 Valid date format example: t1 = [2020,09,28];
 
 Data available from 29-Jul-2015 onwards.
+
+Example figures as .tif and .fig.
